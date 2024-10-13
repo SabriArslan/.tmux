@@ -78,13 +78,12 @@ then
 ```
 tm
 ```
-and when in tmux
-```
-tmux source-file ~/.tmux.conf
-# Ctrl + b 
-# Shift + i
-```
 
+use this to reload the config
+```
+Ctrl + b
+Shift +r
+```
 Troubleshooting
 ---------------
 
