@@ -65,12 +65,12 @@ Now proceed to [adjust] your `.local` customization file copy.
 
 Creating alias for bash/zsh
 ```
-echo "alias tm='tmux new -t main || tmux attach -t main'" >> ~/.zshrc
+echo "alias tm='tmux attach-session -t main || tmux new-session -s main'" >> ~/.zshrc
 source ~/.zshrc
 ```
 or 
 ```
-echo "alias tm='tmux new -t main || tmux attach -t main'" >> ~/.bashrc
+echo "alias tm='tmux attach-session -t main || tmux new-session -s main'" >> ~/.bashrc
 source ~/.bashrc
 ```
 
