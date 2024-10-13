@@ -441,6 +441,8 @@ set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
 set -g @continuum-restore 'on'
 set -g @continuum-save-interval '1'
+set -g @resurrect-capture-pane-contents 'on'
+set -g @resurrect-save-on-exit 'on'  # Save on exit
 
 # -- custom variables ----------------------------------------------------------
 
