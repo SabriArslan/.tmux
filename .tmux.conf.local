@@ -7,6 +7,9 @@
 
 # -- bindings ------------------------------------------------------------------
 
+# reload tmux-conf Ctrl + b, Shift R
+bind R source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded"
+
 # preserve tmux stock bindings,
 # while adding bindings that don't conflict with these stock bindings
 # /!\ this disables some of Oh my tmux! bindings described in README.md
