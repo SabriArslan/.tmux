@@ -63,6 +63,28 @@ Now proceed to [adjust] your `.local` customization file copy.
 [@bphogan]: https://twitter.com/bphogan
 [adjust]: #configuration
 
+Creating alias for bash/zsh
+```
+echo "alias tm='tmux new -t main || tmux attach -t main'" > ~/.zshrc
+source ~/.zshrc
+```
+or 
+```
+echo "alias tm='tmux new -t main || tmux attach -t main'" > ~/.bashrc
+source ~/.bashrc
+```
+
+then 
+```
+tm
+```
+and when in tmux
+```
+tmux source-file ~/.tmux.conf
+# Ctrl + b 
+# Shift + i
+```
+
 Troubleshooting
 ---------------
 
